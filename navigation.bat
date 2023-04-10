@@ -64,13 +64,16 @@ cd ..\..
 cd ..\adj_directory
 
 :: # To make a new directory within the working directory:
+md directory_name
 mkdir directory_name
 
 :: # To make a new directory in a relative directory:
+md \path\to\directory
 mkdir \path\to\directory
 
 :: # To create new files within the working directory (non-natively):
 type nul > new_file.txt
+echo "" > new_file.txt
 
 :: ### Helper Commands ###
 
