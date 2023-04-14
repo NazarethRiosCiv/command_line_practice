@@ -43,7 +43,7 @@ type deserts.txt >> forests.txt
 :: # The < command takes the standard input from the file on the right and inputs
 :: # it into the command on the left. It is important to know that input can 
 :: # be redirected.
-rem # same as cat lakes.txt
+rem # same as type lakes.txt
 type < lakes.txt  
 
 :: # The | operator takes the standard output of the command on the left, and pipes
